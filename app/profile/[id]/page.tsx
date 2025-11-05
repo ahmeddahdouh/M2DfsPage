@@ -77,6 +77,7 @@ export default function ProfilePage() {
                 />
               </div>
               <h1 className="text-5xl font-bold text-foreground mb-3 text-balance">{student.name}</h1>
+              <h1 className="text-5xl font-bold text-foreground mb-3 text-balance">{student.flag}</h1>
               <p className="text-xl text-muted-foreground font-medium">{student.nationality} Developer</p>
             </div>
           </div>
